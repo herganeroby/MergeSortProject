@@ -3,6 +3,8 @@ var c = canvas.getContext("2d");
 var intervalId;
 var t = 0;
 var cleared = false;
+var mancare = 0;
+var pesti = 12;
 
 c.fillStyle = "White";
 c.fillRect(0, 0, canvas.width, canvas.height);
