@@ -45,6 +45,7 @@ function mergeSort(elemente) {
 
   if (elemente.length < 2) {
     return elemente;
+	console.log(left);
   }
 
   var centru = Math.floor(elemente.length / 2),
